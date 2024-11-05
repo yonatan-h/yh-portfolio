@@ -1,4 +1,5 @@
 import IntroSection from "./components/IntroSection";
+import Projects from "./components/Projects";
 import Techs from "./components/Techs";
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
       <IntroSection />
       <hr className="container" />
       <Techs />
+      <hr className="container" />
+      <Projects />
     </main>
   );
 }
