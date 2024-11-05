@@ -1,5 +1,5 @@
 import { IconType } from "react-icons";
-import { BsBookFill, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsBookFill, BsDot, BsGithub, BsLinkedin } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { SiCodeforces, SiLeetcode } from "react-icons/si";
@@ -73,8 +73,16 @@ export default function IntroSection() {
               <BsBookFill /> Addis Ababa University, 5th year Software
               Engineering
             </p>
-            <p>Led production of 24,000 lines of code as startup web lead</p>
-            <p>Completed 600+ competitive programming questions in A2SV</p>
+
+            <p className="flex items-center ">
+              <BsDot className="mr-3" />
+              Led production of 24,000 lines of code as startup web lead
+            </p>
+
+            <p className="flex items-center ">
+              <BsDot className="mr-3" />
+              Completed 600+ competitive programming questions in A2SV
+            </p>
           </div>
         </div>
         <div>
