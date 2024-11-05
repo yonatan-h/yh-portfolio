@@ -1,3 +1,4 @@
+import CTA from "./components/CTA";
 import IntroSection from "./components/IntroSection";
 import Projects from "./components/Projects";
 import Techs from "./components/Techs";
@@ -10,6 +11,9 @@ function App() {
       <Techs />
       <hr className="container" />
       <Projects />
+      <hr className="container" />
+      <CTA />
+      <hr className="container" />
     </main>
   );
 }
