@@ -74,6 +74,7 @@ export default function IntroSection() {
               Engineering
             </p>
 
+            <hr className="my-3" />
             <p className="flex items-center ">
               <BsDot className="mr-3" />
               Led production of 24,000 lines of code as startup web lead
